@@ -32,8 +32,8 @@ ${tests}
 ${questions}
 
 ## Contact
-### ${data.name}
-### ${data.email}
+### Name: ${data.name}
+### Email: ${data.email}
 <img src='${data.img_url}' />
 `;
 }
