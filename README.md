@@ -8,8 +8,6 @@
 
 ## ✨ [Demo](https://jschrbr.github.io/readme-generator/)
 
-## Description
-
 ## Installation
 ```sh
   git clone; npm i; node index.js
@@ -30,7 +28,7 @@ Give a ⭐️ if this project helped you!
 
 ## Author
 👤 **James Schreiber**
-<img src='https://avatars1.githubusercontent.com/u/19889730?v=4' />
+<img src='https://avatars1.githubusercontent.com/u/19889730?v=4' width = "128px"/>
 
 - Website: https://jschrbr.github.io/portfolio
 - Email: someone@example.com
