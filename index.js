@@ -83,7 +83,7 @@ const questions = [
   {
     type: "input",
     name: "name",
-    message: "What be your name? "
+    message: "What's your name? "
   },
   {
     type: "input",
@@ -142,7 +142,19 @@ const questions = [
   {
     type: "input",
     name: "support",
-    message: "Enter a patreon username: ",
+    message: "Enter a Patreon username: ",
+    default: "skip"
+  },
+  {
+    type: "input",
+    name: "link",
+    message: "Enter a LinkedIn username: ",
+    default: "skip"
+  },
+  {
+    type: "input",
+    name: "website",
+    message: "Enter a website: ",
     default: "skip"
   },
   {
@@ -154,7 +166,7 @@ const questions = [
   {
     type: "input",
     name: "questions",
-    message: "Questions",
+    message: "Questions: ",
     default: "skip"
   }
 ];

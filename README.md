@@ -2,24 +2,40 @@
 # readme-generator
 <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
 
-## [Home]("https://github.com/jschrbr/readme-generator/")
+> This is a nodejs application that prompts users for standard information, and generates a README markdown file.
 
-## [Demo]("https://jschrbr.github.io/readme-generator/")
+## 🏠 [Home](https://github.com/jschrbr/readme-generator/)
+
+## ✨ [Demo](https://jschrbr.github.io/readme-generator/)
 
 ## Description
-This is a nodejs application that prompts users for standard information, and generates a README markdown file.
 
 ## Installation
-git clone; npm i; node index.js
+```sh
+  git clone; npm i; node index.js
+```
 
 ## Usage
-```Check out the demo```
+  >Check out the demo
+
+
+## Show your support
+Give a ⭐️ if this project helped you!  
+<a href="https://www.patreon.com/techsmechs">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
 
 
 
-
-## Contact
-### Name: James Schreiber
-### Email: someone@example/com
+## Author
+👤 **James Schreiber**
 <img src='https://avatars1.githubusercontent.com/u/19889730?v=4' />
+
+- Website: https://jschrbr.github.io/portfolio
+- Email: someone@example.com
+- Github: [@jschrbr](https://github.com/jschrbr)
+
+- LinkedIn: [@techsmechs](https://linkedin.com/in/techsmechs)
+
+
