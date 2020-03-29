@@ -17,10 +17,11 @@ async function generateMarkdown(data) {
 
   return `
 # ${title}
+<img alt="Version" src="https://img.shields.io/badge/version-${data.version}-blue.svg?cacheSeconds=2592000" />
 
-## [Home]('https://github.com/${data.git}/${title}/')
+## [Home]("https://github.com/${data.git}/${title}/")
 
-## [Demo]('https://${data.git}.github.io/${title}/')
+## [Demo]("https://${data.git}.github.io/${title}/")
 
 ## Description
 ${data.description}
