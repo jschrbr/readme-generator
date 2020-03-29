@@ -1,12 +1,22 @@
 
+
 # readme-generator
-<img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+![Version](https://img.shields.io/badge/version-0.1-blue.svg)
 
 > This is a nodejs application that prompts users for standard information, and generates a README markdown file.
 
-## 🏠 [Home](https://github.com/jschrbr/readme-generator/)
+# 🏠[Home](https://github.com/jschrbr/readme-generator/)
 
-## ✨ [Demo](https://jschrbr.github.io/readme-generator/)
+# ✨ [Demo](https://jschrbr.github.io/readme-generator/)
+
+
+|Contents|
+|---|
+|[Installation](#Installation)|
+|[Usage](#Usage)|
+|[Show your support](#Show-your-support)|
+|[Author](#Author)|
+
 
 ## Installation
 ```sh
@@ -27,13 +37,13 @@ Give a ⭐️ if this project helped you!
 
 
 ## Author
-<img src="https://avatars1.githubusercontent.com/u/19889730?v=4" width = "64px" style="border-radius:50%"/> **James Schreiber**
+<img width=64 src="https://avatars1.githubusercontent.com/u/19889730?v=4"/> **James Schreiber**
 
-
-- Website: https://jschrbr.github.io
+- Website: https://jschrbr.github.io/portfolio/
 - Email: someone@example.com
 - Github: [@jschrbr](https://github.com/jschrbr)
 
 - LinkedIn: [@techsmechs](https://linkedin.com/in/techsmechs)
+
 
 

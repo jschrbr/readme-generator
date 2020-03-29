@@ -54,15 +54,18 @@ ${data.tests}
 >${data.questions}
 `;
 
-  return `
+  const head = `
 # ${title}
-<img alt="Version" src="https://img.shields.io/badge/version-${data.version}-blue.svg?cacheSeconds=2592000" />
+![Version](https://img.shields.io/badge/version-${data.version}-blue.svg)
 
 > ${data.description}
 
-## 🏠 [Home](https://github.com/${data.git}/${title}/)
+# 🏠[Home](https://github.com/${data.git}/${title}/)
 
-## ✨ [Demo](https://${data.git}.github.io/${title}/)
+# ✨ [Demo](https://${data.git}.github.io/${title}/)
+`;
+
+  const body = `
 ${installation}
 ${usage}
 ${license}
@@ -71,8 +74,7 @@ ${tests}
 ${questions}
 
 ## Author
-<img src="${data.img_url}" width = "64px" style="border-radius:50%"/> **${data.name}**
-
+<img width=64 src="${data.img_url}"/> **${data.name}**
 
 ${website}
 - Email: ${data.email}
@@ -80,6 +82,23 @@ ${website}
 ${link}
 
 `;
+  let table = `
+|Contents|
+|---|`;
+  const tableFind = body.split("\n");
+  tableFind.forEach(line => {
+    if (line.indexOf(`##`) > -1) {
+      const heading = line.replace("## ", "");
+      const link = heading.replace(/ /g, "-");
+      table += `\n|[${heading}](#${link})|`;
+    }
+  });
+  const doc = `
+${head}
+${table}
+${body}
+`;
+  return doc;
 }
 
 module.exports = generateMarkdown;
