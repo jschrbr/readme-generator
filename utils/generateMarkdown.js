@@ -63,8 +63,6 @@ ${data.tests}
 ## 🏠 [Home](https://github.com/${data.git}/${title}/)
 
 ## ✨ [Demo](https://${data.git}.github.io/${title}/)
-
-## Description
 ${installation}
 ${usage}
 ${license}
