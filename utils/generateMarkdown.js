@@ -71,8 +71,8 @@ ${tests}
 ${questions}
 
 ## Author
-👤 **${data.name}**
-<img src='${data.img_url}' width = "128px"/>
+<img src="${data.img_url}" width = "64px" style="border-radius:50%"/> **${data.name}**
+
 
 ${website}
 - Email: ${data.email}
