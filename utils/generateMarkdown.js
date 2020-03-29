@@ -72,7 +72,7 @@ ${questions}
 
 ## Author
 👤 **${data.name}**
-<img src='${data.img_url}' />
+<img src='${data.img_url}' width = "128px"/>
 
 ${website}
 - Email: ${data.email}
