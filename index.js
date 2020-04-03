@@ -9,7 +9,6 @@ const path = require("path");
 const util = require("util");
 
 const proj = path.basename(process.cwd());
-let git = {};
 
 const writeFileAsync = util.promisify(fs.writeFile);
 

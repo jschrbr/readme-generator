@@ -60,7 +60,7 @@ ${data.tests}
 
 > ${data.description}
 
-# 🏠[Home](https://github.com/${data.git}/${title}/)
+# 🏠 [Home](https://github.com/${data.git}/${title}/)
 
 # ✨ [Demo](https://${data.git}.github.io/${title}/)
 `;
