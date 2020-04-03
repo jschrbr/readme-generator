@@ -65,8 +65,9 @@ const questions = [
           if (res === `Not Found`) {
             return "Uh-oh, user doesnt seem to exist.";
           } else {
+            const email = await api.getUser(`${value}/events/public`);
             questions[5].default = res.name;
-            questions[6].default = res.email;
+            questions[6].default = email[0].payload.commits[0].author.email;
             questions[7].default = res.avatar_url;
 
             return true;
